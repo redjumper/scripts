@@ -1,0 +1,8 @@
+需要安装parallel，步骤如下，make install必须以root用户运行
+
+wget https://ftpmirror.gnu.org/parallel/parallel-latest.tar.bz2
+tar -jxvf parallel-latest.tar.bz2
+cd parallel-20230322/
+./configure
+make
+make install
